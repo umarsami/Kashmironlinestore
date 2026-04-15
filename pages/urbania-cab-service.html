@@ -61,8 +61,8 @@
       <h2>Urbania Cab Service <span>in Kashmir</span></h2>
       <p>Experience premium group travel with Force Urbania - Kashmir's finest luxury van service. Ideal for families, corporate tours, wedding guests, and pilgrim groups.</p>
       <div class="btn-group">
-        <a href="https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20book%20a%20Force%20Urbania%20in%20Kashmir" class="btn btn-primary">Book on WhatsApp</a>
-        <a href="tel:+911234567890" class="btn btn-outline">Call to Book</a>
+        <a href="#booking" class="btn btn-primary">Book Urbania Now</a>
+        <a href="https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20book%20a%20Force%20Urbania%20in%20Kashmir" class="btn btn-outline">WhatsApp Us</a>
       </div>
     </div>
   </section>
@@ -456,6 +456,112 @@
             <p>We offer free cancellation up to 48 hours before the scheduled pickup. Cancellations within 48-24 hours incur a 25% charge. Within 24 hours, a 50% charge applies. No-shows are charged in full. We recommend booking early, especially during peak season (April-September).</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" style="background: rgba(26,86,50,0.03);">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our <span>Customers</span> Say</h2>
+        <p>See what groups and families say about travelling in our Urbania vans</p>
+        <div class="underline"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>We were a group of 15 friends and the Urbania was absolutely perfect. Luxurious seats, great AC, and our driver knew every scenic spot in Kashmir. Best group trip ever!</p>
+          <div class="testimonial-author">Vikram Singh</div>
+          <div class="testimonial-location">Jaipur</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>Booked the Urbania for our office team outing to Gulmarg. Everyone was impressed by the comfort and space. Much better than splitting into 3-4 small cars!</p>
+          <div class="testimonial-author">Neha Gupta</div>
+          <div class="testimonial-location">Bengaluru - Corporate Event</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>Used the Urbania for our family wedding function transfers in Srinagar. It was decorated beautifully and the service was top-notch. Thank you Kashmir Online Store!</p>
+          <div class="testimonial-author">Farooq Ahmad</div>
+          <div class="testimonial-location">Srinagar</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="section" id="booking">
+    <div class="container">
+      <div class="section-title">
+        <h2>Book Your <span>Urbania</span></h2>
+        <p>Fill in the details and we'll provide a custom quote within 30 minutes</p>
+        <div class="underline"></div>
+      </div>
+      <div class="booking-form">
+        <h3>Urbania Booking Enquiry</h3>
+        <form action="#" method="POST">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="variant">Urbania Variant</label>
+              <select id="variant" name="variant" required>
+                <option value="">Select Variant</option>
+                <option value="12-seater">12 Seater Urbania</option>
+                <option value="17-seater">17 Seater Urbania</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="trip-type">Trip Type</label>
+              <select id="trip-type" name="trip-type" required>
+                <option value="">Select Trip Type</option>
+                <option value="airport-transfer">Airport Transfer</option>
+                <option value="local-srinagar">Local Srinagar</option>
+                <option value="day-trip">Day Trip (Gulmarg/Pahalgam/Sonmarg)</option>
+                <option value="multi-day-tour">Multi-Day Kashmir Tour</option>
+                <option value="wedding-event">Wedding / Event Transfer</option>
+                <option value="corporate">Corporate / Group Outing</option>
+                <option value="custom">Custom Requirement</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="group-size">Group Size</label>
+              <input type="number" id="group-size" name="group-size" min="1" max="20" placeholder="e.g. 15">
+            </div>
+            <div class="form-group">
+              <label for="pickup-date">Pickup Date</label>
+              <input type="date" id="pickup-date" name="pickup-date" required>
+            </div>
+            <div class="form-group">
+              <label for="pickup-location">Pickup Location</label>
+              <select id="pickup-location" name="pickup-location" required>
+                <option value="">Select Location</option>
+                <option value="srinagar-airport">Srinagar Airport</option>
+                <option value="srinagar-city">Srinagar City</option>
+                <option value="jammu-airport">Jammu Airport</option>
+                <option value="jammu-railway">Jammu Railway Station</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label for="message">Special Requirements</label>
+              <textarea id="message" name="message" rows="4" placeholder="Any special requests - decoration, extra stops, destinations, luggage needs, etc."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Booking Request</button>
+        </form>
       </div>
     </div>
   </section>

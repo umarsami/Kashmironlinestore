@@ -56,8 +56,8 @@
       <h2>SUV & XUV <span>Rental in Kashmir</span></h2>
       <p>Conquer Kashmir's breathtaking terrain in powerful, comfortable SUVs and XUVs. From snow-covered Gulmarg to the valleys of Pahalgam - travel with confidence.</p>
       <div class="btn-group">
-        <a href="https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20book%20an%20SUV%20in%20Kashmir" class="btn btn-primary">Book on WhatsApp</a>
-        <a href="tel:+911234567890" class="btn btn-outline">Call to Book</a>
+        <a href="#booking" class="btn btn-primary">Book Now</a>
+        <a href="https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20book%20an%20SUV%20in%20Kashmir" class="btn btn-outline">WhatsApp Us</a>
       </div>
     </div>
   </section>
@@ -392,6 +392,107 @@
             <p>You can book through WhatsApp, phone call, or by contacting us via our website. Simply share your travel dates, number of passengers, and preferred vehicle. We'll confirm availability and provide an instant quote.</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our <span>Customers</span> Say</h2>
+        <p>Trusted by hundreds of happy travellers every month</p>
+        <div class="underline"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>We rented a Scorpio N for our family trip to Gulmarg and Pahalgam. The driver was excellent and the vehicle handled the snow roads perfectly. Highly recommended!</p>
+          <div class="testimonial-author">Rajesh Kumar</div>
+          <div class="testimonial-location">Delhi</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>Booked an XUV700 for a week-long Kashmir trip. The ADAS features were amazing on the highways. Best car rental experience in Kashmir!</p>
+          <div class="testimonial-author">Amit Patel</div>
+          <div class="testimonial-location">Ahmedabad</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>The Innova Crysta was spotless and our driver knew every scenic spot in Kashmir. Very fair pricing with no hidden charges. Will book again for sure!</p>
+          <div class="testimonial-author">Priya Sharma</div>
+          <div class="testimonial-location">Mumbai</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="section" style="background: rgba(26,86,50,0.03);" id="booking">
+    <div class="container">
+      <div class="section-title">
+        <h2>Book Your <span>SUV / XUV</span></h2>
+        <p>Fill the form and our team will get back to you within 30 minutes with the best quote</p>
+        <div class="underline"></div>
+      </div>
+      <div class="booking-form">
+        <h3>SUV / XUV Rental Enquiry</h3>
+        <form action="#" method="POST">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="vehicle">Preferred Vehicle</label>
+              <select id="vehicle" name="vehicle" required>
+                <option value="">Select Vehicle</option>
+                <option value="innova-crysta">Toyota Innova Crysta</option>
+                <option value="innova-hycross">Toyota Innova HyCross</option>
+                <option value="ertiga">Maruti Suzuki Ertiga</option>
+                <option value="scorpio-n">Mahindra Scorpio N</option>
+                <option value="xuv700">Mahindra XUV700</option>
+                <option value="tempo-traveller">Tempo Traveller</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="pickup-date">Pickup Date</label>
+              <input type="date" id="pickup-date" name="pickup-date" required>
+            </div>
+            <div class="form-group">
+              <label for="drop-date">Drop-off Date</label>
+              <input type="date" id="drop-date" name="drop-date" required>
+            </div>
+            <div class="form-group">
+              <label for="pickup-location">Pickup Location</label>
+              <select id="pickup-location" name="pickup-location" required>
+                <option value="">Select Location</option>
+                <option value="srinagar-airport">Srinagar Airport</option>
+                <option value="srinagar-city">Srinagar City</option>
+                <option value="jammu-airport">Jammu Airport</option>
+                <option value="jammu-railway">Jammu Railway Station</option>
+                <option value="other">Other (mention below)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="passengers">Number of Passengers</label>
+              <input type="number" id="passengers" name="passengers" min="1" max="17" placeholder="e.g. 5">
+            </div>
+            <div class="form-group full">
+              <label for="message">Trip Details / Special Requests</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your trip plan, destinations, special requirements..."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Booking Request</button>
+        </form>
       </div>
     </div>
   </section>
